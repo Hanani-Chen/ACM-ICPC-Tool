@@ -2,4 +2,3 @@
 inv[0]=inv[1]=1;
 ff (i,2,n) inv[i]=(MOD-MOD/i)*inv[MOD%i]%MOD;
 /***********inv[i]为i关于MOD的逆元************/
-1
